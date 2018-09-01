@@ -19,6 +19,7 @@ from django.contrib import admin
 from django.contrib.auth import views as auth_views
 from libbooks.views import *
 
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     #url(r'^login/$', auth_views.login, {'template_name': 'login.html'}, name='login'),
